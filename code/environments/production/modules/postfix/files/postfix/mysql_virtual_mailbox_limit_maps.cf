@@ -1,0 +1,5 @@
+user = postfix
+password = postfix
+hosts = 10.10.6.94
+dbname = postfix
+query = SELECT quota FROM mailbox WHERE username='%s'
